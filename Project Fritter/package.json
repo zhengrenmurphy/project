@@ -1,0 +1,63 @@
+{
+  "name": "fritter",
+  "version": "0.1.0",
+  "author": "6.170students",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "awesome": "nodemon ./bin/www",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.18.1",
+    "buefy": "^0.9.4",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.17.1",
+    "morgan": "~1.9.0",
+    "nodemon": "^2.0.4",
+    "nuxt-fontawesome": "^0.4.0",
+    "sqlite3": "^5.0.0",
+    "vue": "^2.6.12",
+    "vue-cookie": "^1.1.4",
+    "vue-router": "^3.4.8",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^4.5.8",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
