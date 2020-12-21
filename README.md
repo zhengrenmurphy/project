@@ -1,11 +1,11 @@
 # project
 
-#Fritter is a social media project
+# Fritter is a social media project
 You can access the application at the following link
 https://sanjas-zhengren-fritter.herokuapp.com
 
 
-#Kosh is a Covid-19 Information Updating project.
+# Kosh is a Covid-19 Information Updating project.
 You can access the application at the following link 
 https://kosh-team-peach.herokuapp.com
 
